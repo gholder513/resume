@@ -3,25 +3,25 @@ import streamlit as st
 
 # --- PAGE SETUP ---
 about_page = st.Page(
-    "pages/about.py",
+    "views/about.py",
     title="About Me",
     icon=":material/account_circle:",
     default=True,
 )
 snapBot = st.Page(
-    "pages/snapBot.py",
+    "views/snapBot.py",
     title="SnapBot",
     icon=":material/photo_camera:",
 )
 
 codeKids = st.Page(
-    "pages/codeKids.py",
+    "views/codeKids.py",
     title="CodeKids",
     icon=":material/family_restroom:",
 )
 
 workExperience = st.Page(
-    "pages/work_experience.py",
+    "views/work_experience.py",
     title="Work Experience",
     icon=":material/work:",
 )
