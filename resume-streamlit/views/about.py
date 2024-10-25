@@ -14,10 +14,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# @st.experimental_dialog("Contact Me")
-# def show_contact_form():
-#     contact_form()
-
 
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
@@ -29,8 +25,7 @@ with col2:
     st.write(
         ""
     )
-    # if st.button("✉️ Contact Me"):
-    #     show_contact_form()
+    
 
 st.link_button("Resume", "https://drive.google.com/file/d/1X-VZmn3XdoQb2CEvvsy-gTkqLIpK2VCF/view")
 
