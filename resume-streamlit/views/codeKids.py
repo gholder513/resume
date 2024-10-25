@@ -2,7 +2,7 @@ import streamlit as st
 
 # --- Independent Study Section ---
 st.title("Computer Science Independent Study - Virginia Tech")
-st.image("./views/codekids.png", width=200)
+st.image("./assets/codekids.png", width=200)
 # GitHub and Figma Links
 st.subheader("Project Resources")
 st.write("You can access the GitHub repository and the Figma mock-ups used throughout the project below:")
@@ -11,8 +11,8 @@ st.write("You can access the GitHub repository and the Figma mock-ups used throu
 github_url = "https://github.com/codekids-vt/codekids"
 website_url = "https://codekids.cs.vt.edu/"
 
-st.button("CodeKids", key="figma", on_click=lambda: st.write(f"Access here: {website_url}"))
-st.button("GitHub Repository", key="github", on_click=lambda: st.write(f"Access here: {github_url}"))
+st.link_button("CodeKids", website_url)
+st.link_button("GitHub Repository", github_url)
 
 # Description of the project
 st.subheader("Project Overview")
